@@ -456,7 +456,6 @@ margin: 0 auto;
 display: block;
 max-width: 100%;
 }
-/* main---------------------------------------*/
 
 img.img-center {
 	margin: 0 auto;
@@ -475,9 +474,7 @@ img.img-center {
 .flexslider input{
 	display: none;
 }
-.flexslider #slider1:checked ~ ul li:nth-child(1){
-	display: block;
-}
+.flexslider #slider1:checked ~ ul li:nth-child(1),
 .flexslider #slider2:checked ~ ul li:nth-child(2){
 	display: block;
 }
@@ -500,6 +497,8 @@ img.img-center {
 .flexslider #slider2:checked ~ .radio-label label:nth-child(2){
 	background-color:  #496d04;
 }
+
+
 /* Testimonial
 ----------------------------------*/
 .testimonial-area {

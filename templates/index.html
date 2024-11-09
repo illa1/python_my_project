@@ -2,14 +2,13 @@
 
 {% block main %}
 <section id="banner">
-
     <!-- Slider -->
     <div id="main-slider" class="flexslider">
         <input type="radio" name="flexslider" id="slider1" checked>
-        <input type="radio" name="flexslider" id="slider2" >
+        <input type="radio" name="flexslider" id="slider2">
         <ul class="slides">
             <li>
-                <img src='{{url_for("static", filename="img/slides/1.jpg")}}'/>
+                <img src="{{ url_for('static', filename='img/slides/1.jpg') }}" alt="" />
                 <div class="flex-caption container">
                     <h3>Smart Learning..</h3>
                     <p>Doloribus omnis minus temporibus perferendis ipsa<br /> architecto non, magni quam</p>
@@ -17,7 +16,7 @@
                 </div>
             </li>
             <li>
-                <img src='{{url_for("static", filename="img/slides/2.jpg")}}'/>
+                <img src="{{ url_for('static', filename='img/slides/2.jpg') }}" alt="" />
                 <div class="flex-caption container">
                     <h3>Best Educational Campus..</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing<br /> elitincidunt eius magni
@@ -32,8 +31,8 @@
         </div>
     </div>
     <!-- end slider -->
-
 </section>
+
 <section class="txt-area">
     <div class="container">
         <div class="row">
@@ -44,16 +43,12 @@
                     minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti
                     consequuntur possimus.
                 </div>
-
             </div>
         </div>
     </div>
 </section>
 
-
 <section id="content">
-
-
     <div class="container">
         <div class="row">
             <div class="features">
@@ -148,8 +143,6 @@
                 </div><!--/.col-md-4-->
             </div>
         </div>
-
-
     </div>
 </section>
 
@@ -192,9 +185,9 @@
                 </ul>
             </div>
         </div>
-
     </div>
 </section>
+
 <section id='events'>
     <div class="container">
         <div class="row">
